@@ -1,0 +1,232 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+:root{
+    --white:#ffff;
+}
+body{
+    scroll-behavior: smooth;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    overflow-x: hidden;
+}
+#main-page{
+ height: 100%;
+ width:100;
+
+}
+#nav-bar{
+    height: 116px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--white);
+    border: 2px solid orange;
+    position: fixed;
+    z-index: 1;
+}
+.logo{
+    height: 101px;
+    width: 206px;
+    position: relative;
+    left: 30px;
+}
+.logo img{
+    height: 101px;
+    width: 216px;
+}
+.image-text{
+  position: absolute;
+}
+.nav-text{
+    position: relative;
+    top: 53px;
+    width: 580px;
+    height: 48px;
+    list-style: none;
+    display: flex;
+    gap: 40px;
+    font-size: 25px;
+}
+.main-image-page{
+    height: 400px;
+    width: 100%;
+    object-fit: cover;
+    position:absolute;
+    
+}
+.main-image-page img{
+    object-position: center;
+    object-fit: fill;
+    border: 2px solid orange;
+}
+.image-text{
+    position: relative;
+    height: 200px;
+    width: 200px;
+    top: -10%;
+    left: 10%;
+
+}
+#div-main-two{
+    position: relative;
+    display: flex;
+}
+.image-phone-one img{
+    height: 540px;
+    width: 640px;
+    position: relative;
+    left: 42%;
+    top: -70%;
+}
+.image-phone-two img{
+    height: 540px;
+    width: 640px;
+    position: relative;
+    left: -19%;
+    top: -52%;
+}
+#page-header-main{
+    height: 50px;
+    width: 500px;
+    position: relative;
+    top: -35%;
+    left: 37%;
+}
+#page-header-main h1{
+    font-size: 45px;
+    font-weight: 800;
+    opacity: 0.8;
+    text-shadow: inset 10px 20px 19px rgb(6, 38, 38);;
+}
+#third-imge-photo-div{
+    height: 800px;
+    width: 100%;
+    position: relative;
+    top: -25%;
+    display: flex;
+}
+.third-img-left{
+    height: 100%;
+    width: 800px;
+}
+.third-img-left img{
+    height: 540px;
+    width: 640px;
+    position: relative;
+    left: 10%;
+}
+.third-img-right{
+    height: 100%;
+    width: 800px;
+    position: relative;
+    top: 22%;
+}
+.orange-teext h2{
+   color: orange;
+}
+#fourth-page-pacific{
+height: 800px;
+width: 1000px;
+position: relative;
+top: 60%;
+}
+#page-four{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    position: relative;
+    top: -90%;
+}
+.page-four-left{
+    height: 100%;
+    width: 50%;
+   position: relative;
+   top: 15%;
+   left: 22%;
+}
+
+.page-four-right{
+    height: 100%;
+    width: 800px;
+}
+.page-four-right img{
+    height: 540px;
+    width: 640px;
+    position: relative;
+    left: 60%;
+}
+#pagefive{
+    height: 800px;
+    width: 100%;
+    position: relative;
+    top: -80%;
+    display: flex;
+}
+.pagefive-left{
+    height: 50%;
+    width: 50%;
+}
+.pagefive-left img{
+    height: 540px;
+    width: 640px;
+    position: relative;
+    left: 10%;
+}
+
+.pagefive-right{
+    height: 50%;
+    width: 50%;
+    position: relative;
+    top: 22%;
+}
+#lastdiv{
+    height: 100%;
+    width: 100%;
+    position: relative;
+    top: -100%;
+}
+#lastdiv img{
+    height: 516px;
+    width: 1600px;
+    object-fit: cover;
+    background-position: center;
+}
+#pooter{
+    height: 133px;
+    width: 1650px;
+     position: relative;
+     top: -118.5%;
+     display: flex;
+     justify-content: space-around;
+}
+.footer-social{
+    list-style: none;
+    gap: 30px;
+    position: relative;
+   margin-top: 25px;
+}
+.footer-log img{
+    height: 78px;
+    width: 206px;
+}
+.ri-instagram-line{
+    font-size: 30px;
+}
+.ri-twitter-x-line{
+    font-size: 30px;
+}
+.ri-facebook-line{
+    font-size: 30px;
+}
+.footer-social{
+    display: flex;
+}
+.footercopyright{
+    height: 20px;
+    width: 270px;
+    margin-top: 35px;
+}

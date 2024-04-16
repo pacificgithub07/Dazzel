@@ -1,0 +1,488 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --white: #ffff;
+}
+
+body {
+    scroll-behavior: smooth;
+}
+
+a {
+    text-decoration: none;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+    overflow-x: hidden;
+}
+
+#main-page {
+    height: 100%;
+    width: 100;
+
+}
+
+#nav-bar {
+    height: 116px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--white);
+    border: 2px solid orange;
+    position: fixed;
+    z-index: 1;
+}
+
+.logo {
+    height: 101px;
+    width: 206px;
+    position: relative;
+    left: 30px;
+}
+
+.logo img {
+    height: 101px;
+    width: 216px;
+}
+
+.image-text {
+    position: absolute;
+}
+.image-text h3{
+    color: orange;
+}
+.image-text h4{
+    position: absolute;
+    left: 200px;
+    top: 140px;
+}
+.nav-text {
+    position: relative;
+    top: 53px;
+    width: 580px;
+    height: 48px;
+    list-style: none;
+    display: flex;
+    gap: 40px;
+    font-size: 25px;
+}
+
+.main-image-page {
+    height: 400px;
+    width: 100%;
+    object-fit: cover;
+    position: relative;
+
+}
+
+.main-image-page img {
+    object-position: center;
+    object-fit: fill;
+    filter: grayscale(100%);
+    border: 2px solid orange;
+}
+
+.image-text {
+    position: relative;
+    height: 200px;
+    width: 800px;
+    top: -340px;
+    left: 260px;
+    color: #ffff;
+}
+.image-text h1{
+    font-weight: 1000;
+    font-size: 45px;
+    
+}
+#div-main-two {
+    position: relative;
+    display: flex;
+}
+
+.image-phone-one img {
+    height: 540px;
+    width: 640px;
+    position: relative;
+    left: 42%;
+    top: -68%;
+}
+
+.image-phone-two img {
+    height: 540px;
+    width: 640px;
+    position: relative;
+    left: -19%;
+    top: -52%;
+}
+
+#page-header-main {
+    height: 50px;
+    width: 500px;
+    position: relative;
+    top: -35%;
+    left: 37%;
+}
+
+#page-header-main h1 {
+    font-size: 45px;
+    font-weight: 800;
+    opacity: 0.8;
+    text-shadow: inset 10px 20px 19px rgb(6, 38, 38);
+    ;
+}
+
+#third-imge-photo-div {
+    height: 800px;
+    width: 100%;
+    position: relative;
+    top: -25%;
+    display: flex;
+}
+
+.third-img-left {
+    height: 100%;
+    width: 800px;
+}
+
+.third-img-left img {
+    height: 540px;
+    width: 640px;
+    position: relative;
+    left: 10%;
+}
+
+.third-img-right {
+    height: 100%;
+    width: 800px;
+    position: relative;
+    top: 22%;
+}
+
+.orange-teext h2 {
+    opacity: 0.8;
+    color: orange;
+}
+
+#fourth-page-pacific {
+    height: 800px;
+    width: 1000px;
+    position: relative;
+    top: 60%;
+}
+
+#page-four {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    position: relative;
+    top: -90%;
+}
+
+.page-four-left {
+    height: 100%;
+    width: 50%;
+    position: relative;
+    top: 15%;
+    left: 22%;
+}
+.page-four-left h2{
+    color: orange;
+}
+
+.page-four-right {
+    height: 100%;
+    width: 800px;
+}
+
+.page-four-right img {
+    height: 540px;
+    width: 640px;
+    position: relative;
+    left: 60%;
+}
+
+#pagefive {
+    height: 800px;
+    width: 100%;
+    position: relative;
+    top: -80%;
+    display: flex;
+}
+
+.pagefive-left {
+    height: 50%;
+    width: 50%;
+}
+
+.pagefive-left img {
+    height: 540px;
+    width: 640px;
+    position: relative;
+    left: 10%;
+}
+
+.pagefive-right {
+    height: 50%;
+    width: 50%;
+    position: relative;
+    top: 22%;
+    left: 15%;
+}
+.pagefive-right h2{
+color: orange;
+}
+
+
+#lastdiv {
+    height: 100%;
+    width: 100%;
+    position: relative;
+    top: -100%;
+
+}
+
+#lastdiv img {
+    height: 516px;
+    width: 1600px;
+    object-fit: cover;
+    background-position: center;
+    opacity: 0.8;
+filter: brightness(30%) ;
+}
+#lastdiv .last-img-text{
+    height: 100px;
+    width: 800px;
+    position: absolute;
+    top: 120px;
+    left: 392px;
+    line-height: 80px;
+    color: #ffff;
+}
+#lastdiv .last-img-text h1{
+position: absolute;
+left: 130px;
+font-weight: 900;
+font-size: 50px;
+line-height: 80px;
+}
+#lastdiv .last-img-text h2{
+    position: absolute;
+    top: 50%;
+}
+.button-main-div{
+    height: 200px;
+    width: 600px;
+    margin-top:40px;
+    margin-left: 250px;
+    display: flex;
+    gap: 25px;
+}
+.button-main-div .butoon-one :hover{
+   background-color: orange;
+}
+#lastdiv .butoon-two{
+position: absolute;
+left: 550px;
+bottom: 250px;
+height: 40px;width: 120px;
+}
+#lastdiv .butoon-one{
+position: absolute;
+left: 695px;
+bottom: 250px;
+height: 40px;   
+width: 120px;
+}
+.butoon-two button{
+    height: 40px;
+    width: 120px;
+    border-radius: 10px;
+    border: 1px solid white;
+}
+.butoon-two :hover{
+
+  background-color: orange;
+}
+.butoon-one button{
+    height: 40px;
+    width: 120px;
+    border-radius: 10px;
+    border: 1px solid white;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.butoon-one :hover{
+    background-color: orange;
+}
+#pooter {
+    height: 103px;
+    width: 1650px;
+    position: relative;
+    top: -118.5%;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 40px;
+}
+
+.footer-social {
+    list-style: none;
+    gap: 30px;
+    position: relative;
+    margin-top: 25px;
+}
+
+.footer-log img {
+    height: 78px;
+    width: 206px;
+}
+
+.ri-instagram-line {
+    font-size: 30px;
+    color: orange;
+}
+
+.ri-twitter-x-line {
+    font-size: 30px;
+    color: orange;
+}
+
+.ri-facebook-line {
+    font-size: 30px;
+    color: orange;
+}
+
+.footer-social {
+    display: flex;
+
+}
+
+.footercopyright {
+    height: 20px;
+    width: 270px;
+    margin-top: 35px;
+}
+
+pre {
+    font-size: 20px;
+}
+/* @media only screen and (max-width: 768px) {
+    .nav-text {
+        width: 100%;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .nav-text li {
+        margin: 10px;
+    }
+    .logo {
+        left: 10px;
+    }
+    .image-text {
+        width: 90%;
+        left: 5%;
+    }
+    .button-main-div {
+        width: 90%;
+        margin-left: 5%;
+    }
+} */
+/* this section is for the nav bar */
+@media only screen and (max-width: 768px) {
+    #nav-bar {
+      height: 80px;
+    }
+    .logo {
+      height: 80px;
+      width: 150px;
+    }
+    .logo img {
+      height: 80px;
+      width: 150px;
+    }
+    .nav-text {
+      font-size: 20px;
+    }
+  }
+
+
+  /* this is for image and other thing */
+  @media only screen and (max-width: 768px) {
+    .main-image-page {
+      height: 300px;
+    }
+    .main-image-page img {
+      height: 300px;
+    }
+    .image-text {
+      top: -200px;
+      left: 10%;
+      width: 80%;
+      font-size: 25px;
+    }
+  }
+
+  /* this is the section for the other secion */
+  @media only screen and (max-width: 768px) {
+    #third-imge-photo-div {
+      height: 500px;
+    }
+    .third-img-left img,
+    .third-img-right img {
+      height: 360px;
+      width: 480px;
+    }
+    .third-img-left {
+      width: 50%;
+    }
+    .third-img-right {
+      width: 50%;
+    }
+  }
+  /* this is for the forth page secion  */
+  @media only screen and (max-width: 768px) {
+    #fourth-page-pacific {
+      height: 500px;
+    }
+    .page-four-left {
+      width: 50%;
+    }
+    .page-four-right img {
+      height: 360px;
+      width: 480px;
+    }
+  }
+
+  /* adjust for secion  */
+  @media only screen and (max-width: 768px) {
+    #pagefive {
+      height: 500px;
+    }
+    .pagefive-left img,
+    .pagefive-right img {
+      height: 360px;
+      width: 480px;
+    }
+    .pagefive-left {
+      width: 50%;
+    }
+    .pagefive-right {
+      width: 50%;
+    }
+  }
+
+  /* this is for the foooter secion  */
+  @media only screen and (max-width: 768px) {
+    #pooter {
+      height: 150px;
+    }
+    .footer-log img {
+      height: 100px;
+      width: 150px;
+    }
+  }

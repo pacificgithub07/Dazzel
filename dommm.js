@@ -13,3 +13,5 @@ let flag = 0;
 
 let p = document.querySelector('h1');
 p.style.color = "red";
+// here we add something and that is not important
+//  and we can check is so clearly and that is easy for me
